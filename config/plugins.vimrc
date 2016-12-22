@@ -5,6 +5,10 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#disable_auto_complete = 0
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
+
+autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
+
+
 " CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
