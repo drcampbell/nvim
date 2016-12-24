@@ -17,3 +17,9 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " UltiSnips settings
 let g:UltiSnipsExpandTrigger="<tab>"
+
+" Typescript settings
+let g:typesecript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost		 l* nested lwindow

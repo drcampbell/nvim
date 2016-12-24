@@ -13,6 +13,8 @@ colorscheme monokai
 set laststatus=2
 set colorcolumn=80
 
+" Netrw
+
 " Terminal settings
 hi Normal ctermbg=none
 highlight NonText ctermbg=none

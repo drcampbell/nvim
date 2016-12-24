@@ -6,8 +6,13 @@ call plug#begin()
 	Plug 'honza/vim-snippets'
 	" editing
 	Plug 'tpope/vim-surround'
+	Plug 'leafgarland/typescript-vim'
 
 	" visual
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+
+	" Syntax Highlighting
+	Plug 'wavded/vim-stylus'
+
 call plug#end()
