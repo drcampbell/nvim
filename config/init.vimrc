@@ -4,6 +4,12 @@ call plug#begin()
 	Plug 'kien/ctrlp.vim'
 	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
+	Plug 'xolox/vim-session'
+	Plug 'xolox/vim-misc'
+
+	" g it
+	Plug 'tpope/vim-fugitive'
+	Plug 'airblade/vim-gitgutter'
 	" editing
 	Plug 'tpope/vim-surround'
 	Plug 'leafgarland/typescript-vim'
@@ -15,4 +21,5 @@ call plug#begin()
 	" Syntax Highlighting
 	Plug 'wavded/vim-stylus'
 
+	Plug 'jelera/vim-javascript-syntax'
 call plug#end()
