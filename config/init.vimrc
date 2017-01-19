@@ -1,11 +1,14 @@
 call plug#begin()
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+	Plug 'ternjs/tern_for_vim', {'do': 'npm install' }
 	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 	Plug 'kien/ctrlp.vim'
 	Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
 	Plug 'xolox/vim-session'
 	Plug 'xolox/vim-misc'
+
+	Plug 'Shougo/neopairs.vim'
 
 	" g it
 	Plug 'tpope/vim-fugitive'
